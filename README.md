@@ -34,14 +34,14 @@ It’s for the ones clawing their way out of digital dust — and bringing the f
 
 ## 🧠 Key Features
 
-| Feature | Description |
-|--------|-------------|
+| Feature             | Description                                           |
+|---------------------|-------------------------------------------------------|
 | ⚙️ Forked from Dogecoin | Proven, secure, and stable Litecoin-based codebase |
-| 💨 Low Transaction Fees | Send SLUM fast and cheap |
-| 💣 Custom Branding | Replaced Doge with Slum. New name. New symbol. Same chain. |
-| 🖥️ GUI Wallet (WIP) | Fully themed black & gold Qt wallet |
-| ⚒️ Mineable | Use CPU or GPU to earn new coins |
-| 🤖 Open Source | 100% transparent and MIT licensed |
+| 💨 Low Transaction Fees | Send SLUM fast and cheap                         |
+| 💣 Custom Branding     | Replaced Doge with Slum. New name. New symbol.     |
+| 🖥️ GUI Wallet (WIP)   | Fully themed black & gold Qt wallet                |
+| ⚒️ Mineable            | Use CPU or GPU to earn new coins                   |
+| 🤖 Open Source         | 100% transparent and MIT licensed                  |
 
 ---
 
@@ -53,5 +53,5 @@ SlumCoin/
 ├── qt/                # GUI wallet (C++/Qt5)
 ├── doc/               # Build instructions, roadmap, notes
 ├── contrib/           # Utilities, scripts
-├── SlumCoin-logo.png  # Black & gold fist logo
+├── SlumCoin-logo.png  # Black & gold lightning fist logo
 └── README.md          # You're here
