@@ -1,89 +1,57 @@
-<h1 align="center">
-<img src="https://raw.githubusercontent.com/dogecoin/dogecoin/master/share/pixmaps/dogecoin256.svg" alt="Dogecoin" width="256"/>
-<br/><br/>
-Dogecoin Core [DOGE, Ð]  
-</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Slumerican/SlumCoin/main/SlumCoin-logo.png" alt="SlumCoin Logo" width="250"/>
+</p>
 
-**IMPORTANT: Starting August 2024, the `master` branch has become the primary
-integration branch and has become unstable. Please check out a tagged version
-before compiling production binaries.**
+<h1 align="center">☠️🔥 SLUMCOIN 🔥☠️</h1>
+<h3 align="center">A Dogecoin Fork Forged for the Forgotten</h3>
 
-For internationalized documentation, see the index at [doc/intl](doc/intl/README.md).
+<p align="center"><em>This ain't no meme coin — it’s a movement.</em></p>
 
-Dogecoin is a community-driven cryptocurrency that was inspired by a Shiba Inu meme. The Dogecoin Core software allows anyone to operate a node in the Dogecoin blockchain networks and uses the Scrypt hashing method for Proof of Work. It is adapted from Bitcoin Core and other cryptocurrencies.
+---
 
-For information about the default fees used on the Dogecoin network, please
-refer to the [fee recommendation](doc/fee-recommendation.md).
+## ⚡ What Is SlumCoin?
 
-## Usage 💻
+SlumCoin is a decentralized, community-owned digital currency forked from Dogecoin and reimagined as a chain of resilience, rebellion, and raw creative power. Inspired by the spirit of the streets and the genius in the gutter, SlumCoin empowers underdogs and overlooked visionaries to move money, share value, and ride the wave of true decentralization.
 
-To start your journey with Dogecoin Core, see the [installation guide](INSTALL.md) and the [getting started](doc/getting-started.md) tutorial.
+- ⚡ Based on the battle-tested Dogecoin (Litecoin-based)
+- ☠️ Rebranded with a black & gold fist gripping lightning — no cute dogs here
+- 🔥 Designed for low fees, high speed, real community energy
 
-The JSON-RPC API provided by Dogecoin Core is self-documenting and can be browsed with `dogecoin-cli help`, while detailed information for each command can be viewed with `dogecoin-cli help <command>`.
+---
 
-### Such ports
+## 💀 Who’s It For?
 
-Dogecoin Core by default uses port `22556` for peer-to-peer communication that
-is needed to synchronize the "mainnet" blockchain and stay informed of new
-transactions and blocks. Additionally, a JSONRPC port can be opened, which
-defaults to port `22555` for mainnet nodes. It is strongly recommended to not
-expose RPC ports to the public internet.
+SlumCoin is for:
+- Digital hustlers and **meme smiths**
+- Artists, poets, and **culture warriors**
+- Outlaws, underdogs, **the broke and brilliant**
+- Rebels building empires in the ruins
 
-| Function | mainnet | testnet | regtest |
-| :------- | ------: | ------: | ------: |
-| P2P      |   22556 |   44556 |   18444 |
-| RPC      |   22555 |   44555 |   18332 |
+This isn’t a crypto for billionaires.  
+It’s for the ones clawing their way out of digital dust — and bringing the fire with them.
 
-## Ongoing development - Moon plan 🌒
+---
 
-Dogecoin Core is an open source and community driven software. The development
-process is open and publicly visible; anyone can see, discuss and work on the
-software.
+## 🧠 Key Features
 
-Main development resources:
+| Feature | Description |
+|--------|-------------|
+| ⚙️ Forked from Dogecoin | Proven, secure, and stable Litecoin-based codebase |
+| 💨 Low Transaction Fees | Send SLUM fast and cheap |
+| 💣 Custom Branding | Replaced Doge with Slum. New name. New symbol. Same chain. |
+| 🖥️ GUI Wallet (WIP) | Fully themed black & gold Qt wallet |
+| ⚒️ Mineable | Use CPU or GPU to earn new coins |
+| 🤖 Open Source | 100% transparent and MIT licensed |
 
-* [GitHub Projects](https://github.com/dogecoin/dogecoin/projects) is used to
-  follow planned and in-progress work for upcoming releases.
-* [GitHub Discussions](https://github.com/dogecoin/dogecoin/discussions) is used
-  to discuss features, planned and unplanned, related to both the development of
-  the Dogecoin Core software, the underlying protocols and the DOGE asset.
+---
 
-### Version strategy
-Version numbers are following ```major.minor.patch``` semantics.
+## 📂 Repo Structure
 
-### Branches
-There are 4 types of branches in this repository:
-
-- **master:** Unstable, contains the latest code under development.
-- **maintenance:** Stable, contains the latest version of previous releases,
-  which are still under active maintenance. Format: ```<version>-maint```
-- **development:** Unstable, contains new code for upcoming releases. Format: ```<version>-dev```
-- **archive:** Stable, immutable branches for old versions that no longer change
-  because they are no longer maintained.
-
-***Submit your pull requests against `master`***
-
-*Maintenance branches are exclusively mutable by release. When a release is*
-*planned, a development branch will be created and commits from master will*
-*be cherry-picked into these by maintainers.*
-
-## Contributing 🤝
-
-If you find a bug or experience issues with this software, please report it
-using the [issue system](https://github.com/dogecoin/dogecoin/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5Bbug%5D+).
-
-Please see [the contribution guide](CONTRIBUTING.md) to see how you can
-participate in the development of Dogecoin Core. There are often
-[topics seeking help](https://github.com/dogecoin/dogecoin/labels/help%20wanted)
-where your contributions will have high impact and get very appreciation. wow.
-
-## Very Much Frequently Asked Questions ❓
-
-Do you have a question regarding Dogecoin? An answer is perhaps already in the
-[FAQ](doc/FAQ.md) or the
-[Q&A section](https://github.com/dogecoin/dogecoin/discussions/categories/q-a)
-of the discussion board!
-
-## License - Much license ⚖️
-Dogecoin Core is released under the terms of the MIT license. See
-[COPYING](COPYING) for more information.
+```bash
+SlumCoin/
+├── src/               # Blockchain core logic (C++)
+├── qt/                # GUI wallet (C++/Qt5)
+├── doc/               # Build instructions, roadmap, notes
+├── contrib/           # Utilities, scripts
+├── SlumCoin-logo.png  # Black & gold fist logo
+└── README.md          # You're here
