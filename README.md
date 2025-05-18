@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Slumerican/SlumCoin/main/SlumCoin-logo.png" alt="SlumCoin Logo" width="250"/>
+  <img src="https://github.com/Slumerican4Life/SlumCoin/blob/master/SlumCoin-logo.png" alt="SlumCoin Logo" width="250"/>
 </p>
 
 <h1 align="center">☠️🔥 SLUMCOIN 🔥☠️</h1>
